@@ -1,0 +1,89 @@
+#top {
+    align-items: center;
+    border-bottom: 5px solid #cccccc;
+    background-color: rgb(255,255,255);
+}
+
+#toptitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    background:#4aaaa5;
+    overflow: hidden;
+}
+
+#topnav nav a {
+    padding: 10px;
+    text-decoration: none;
+    float: right;
+    color: gray;
+}
+#title2 {
+    text-align: center;
+    color: rgb(74,170,165);
+    border-bottom: 3px solid #666666;
+    margin: 10px;
+ }
+
+#content {
+    background-color: rgb(255,255,255);
+    margin: 25px 25px 75px;
+    border: 15px solid rgb(255,255,255);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    overflow-wrap: break-word;
+    align-items: center;
+    background: rgb(161, 255, 161);
+}
+
+#pic #aboutme {
+    float: center;
+}
+
+#footer {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    z-index: 1;
+    flex-shrink: 0;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.clearfix {
+    display: inline-flex;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    overflow-wrap: break-word;
+    padding: 5px;
+    background-color: rgb(255,255,255);
+}
+
+p {
+    align-self: auto;
+}
+
+h3 {
+    color: white;
+    background-color: #4aaaa5;
+}
+
+.form {
+    align-content: center;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+}
